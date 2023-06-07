@@ -17,10 +17,27 @@ h1 {
 #search-form{
   text-align: center;
 }
-
+button{
+  background-color: rgb(227, 147, 103);
+  border-radius: 5cm;
+  border-color: black;
+  padding: 10px;
+}
 .gif-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   height: 40vh;
   width: 80%;
   background-color: black;
   margin: 0 auto;
+  gap: 10px 20px;
+  row-gap: 10px;
+  column-gap: 20px;
+  border: dashed;
+}
+
+.item{
+  flex-shrink: 5;
+  height: 300px;
 }
